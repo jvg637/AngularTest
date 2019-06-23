@@ -136,5 +136,10 @@
       }
     }
   },
-  "defaultProject": "open-events-front"
+  "defaultProject": "open-events-front",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
