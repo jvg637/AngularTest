@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'oevents-root',
   templateUrl: './app.component.html',
