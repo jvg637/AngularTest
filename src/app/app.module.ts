@@ -15,11 +15,13 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { AppRoutingModule } from './app-routing.module';
 
+
 @NgModule({
    declarations: [
       AppComponent,
       LandingPageComponent,
       ToolbarComponent,
+      PageNotFoundComponent
    ],
    imports: [
       BrowserModule,
