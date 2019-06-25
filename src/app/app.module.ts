@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 
 // Modules
+import { CoreModule } from "./core/core.module"; // <--- NEW
 import { SharedModule } from './shared/shared.module';
 import { EventsModule  } from './events/events.module';
 import { ProfileModule  } from './profile/profile.module';
@@ -24,6 +25,7 @@ import { AppRoutingModule } from './app-routing.module';
       PageNotFoundComponent
    ],
    imports: [
+      CoreModule,
       BrowserModule,
       SharedModule,
       EventsModule,
